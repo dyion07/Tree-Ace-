@@ -1,0 +1,117 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tree Ace</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .header {
+            background-color: #4e74df;
+            padding: 15px;  
+            font-size: 35px;
+            color: white;
+        }
+        .header > span1 {
+            padding-left: 20px;
+            
+        }
+        .header > span2 {
+            margin-top: 15px;
+            padding-right: 20px;
+            float: right;
+            font-size: 12px;
+        }
+        .header > img {
+            object-fit: cover;
+            width: auto;
+            height: auto;
+            float: right;
+            width: 40px;
+            height: 40px;
+            border-radius: 100%;
+        }
+        .navbar > nav {
+            background-color: #f8f9fc;
+            float: left;
+            width: 20%;
+            height: 100%;
+        }
+        .navbar > nav > ul {
+            list-style-type: none;
+            padding: 20px;
+            text-decoration: none;
+        }
+        .navbar > nav > ul > hr {
+            color: #4e74df;
+        }
+        .navbar > article {
+            float: left;
+            padding: 20px;
+            width: 80%;
+            height: 100%;
+            background-color: #f1f1f1;
+        }
+        footer {
+            background-color: #777;
+            padding: 20px;
+            text-align: start;
+            color: white;
+        }
+        @media (max-width: 600px) {
+        nav, article {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <span1><b>KoReact</b></span1>
+        <img src="img/pp.jpg" alt="Profile">
+        <span2>Welcome, Marzuki Akmal</span2>
+    </div>
+
+    <div class="navbar">
+        <nav>
+            <ul>
+                <li><a href="#">Insight</a></li>
+                <hr>
+                <li><a href="#">Car Tracking</a></li>
+                <hr>
+                <li><a href="#">Graph Statistics</a></li>
+                <hr>
+                <li><a href="#">Data Management</a></li>
+                <hr>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <hr>
+                <li><a href="#">Logout</a></li>
+                <hr>    
+            </ul>
+        </nav>
+
+        <article>
+            <h4>Earnings (Monthly)</h4>
+            <canvas></canvas>
+            <h4>Earnings (Daily)</h4>
+            <canvas></canvas>
+            <h4>Earnings (Monthly)</h4>
+            <canvas></canvas>
+            <h4>Earnings (Monthly)</h4>
+            <canvas></canvas>
+        </article>
+    </div>
+
+    <footer>
+        &copf;CopyrightTreeAce@PoliteknikNegeriJember
+    </footer>
+
+</body>
+</html>
